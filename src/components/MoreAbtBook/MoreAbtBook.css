@@ -1,0 +1,156 @@
+/* Styling the header */
+.biggestdiv{
+    background: linear-gradient(135deg, #000000, #0c1442, #0e2247, #001f4d);
+
+;
+
+}
+.header h1{
+    height: 40px;
+    font-size: 40px;
+  background: -webkit-linear-gradient( #1f4c9d, #1595d9, #1ac8ed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+     
+
+
+}
+.header {
+    /* height: 40px; */
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #07090f, #1c1f2b, #303652);
+
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styling the book details container */
+.book-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.book-details {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.book-details img {
+    max-width: 225px;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-info h1 {
+    font-size: 24px;
+    margin: 10px 0;
+   
+}
+
+.book-info h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #555;
+}
+
+.book-info h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #777;
+}
+
+.book-info p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.cat {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.morebtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px 0;
+    margin: 4px;
+}
+
+.morebtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.morebtn:hover {
+    background-color: #0056b3;
+}
+
+.ratings-comments-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.rating-stars .star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffd700;
+}
+
+.comment-box {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comment {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}

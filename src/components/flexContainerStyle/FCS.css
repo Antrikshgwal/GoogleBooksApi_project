@@ -1,0 +1,25 @@
+.fcs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    box-sizing: border-box;
+ background: linear-gradient(135deg, #000000, #0c1442, #0e2247, #001f4d);
+ 
+}
+@media (max-width:1260px){
+    .fcs{
+        display: block;
+    }
+    
+}
+/*Due to div.headcom is getting block display after 1260px */
+@media (max-width:1260px)and (min-width:1025px){
+.fcs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+}

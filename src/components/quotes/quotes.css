@@ -1,0 +1,30 @@
+.quotes {
+    width: 100%;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6XdRV5z5U3VamH6bOsGqLes3iZGZ_zXX_wQ&s);
+    }
+    
+    .outerquote {
+        /* background-size: cover;  */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-repeat: no-repeat; */
+        background-position: center ;
+        height: 180px;
+        width: 100%; /* This can also be set to a specific width if needed */
+        position: relative;
+        font-size: 15px;
+        padding-top: 15px;
+        background: -webkit-linear-gradient(#e2cc5c, #9960d6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        }
+        
+        .text-overlay {
+
+
+            font-size: 18px; /* Adjust font size as needed */
+            padding: 10px; /* Adjust padding for spacing */
+            text-wrap: 5px;
+}
